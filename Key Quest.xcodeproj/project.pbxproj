@@ -44,7 +44,7 @@
 		8FFE54AA22D7A4B4006CD9BB = {
 			isa = PBXGroup;
 			children = (
-				8FFE54B522D7A4B4006CD9BB /* MazeBattle */,
+				8FFE54B522D7A4B4006CD9BB /* KeyQuest */,
 				8FFE54B422D7A4B4006CD9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FFE54B522D7A4B4006CD9BB /* MazeBattle */ = {
+		8FFE54B522D7A4B4006CD9BB /* KeyQuest */ = {
 			isa = PBXGroup;
 			children = (
 				8FFE54B622D7A4B4006CD9BB /* AppDelegate.swift */,
@@ -70,7 +70,7 @@
 				8FFE54C522D7A4B5006CD9BB /* LaunchScreen.storyboard */,
 				8FFE54C822D7A4B5006CD9BB /* Info.plist */,
 			);
-			path = MazeBattle;
+			path = KeyQuest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

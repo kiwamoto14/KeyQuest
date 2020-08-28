@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		8FFE54B722D7A4B4006CD9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE54B622D7A4B4006CD9BB /* AppDelegate.swift */; };
 		8FFE54B922D7A4B4006CD9BB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE54B822D7A4B4006CD9BB /* GameScene.sks */; };
-		8FFE54BB22D7A4B4006CD9BB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE54BA22D7A4B4006CD9BB /* Actions.sks */; };
 		8FFE54BD22D7A4B4006CD9BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE54BC22D7A4B4006CD9BB /* GameScene.swift */; };
 		8FFE54BF22D7A4B4006CD9BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE54BE22D7A4B4006CD9BB /* GameViewController.swift */; };
 		8FFE54C222D7A4B4006CD9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE54C022D7A4B4006CD9BB /* Main.storyboard */; };
 		8FFE54C422D7A4B5006CD9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE54C322D7A4B5006CD9BB /* Assets.xcassets */; };
 		8FFE54C722D7A4B5006CD9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE54C522D7A4B5006CD9BB /* LaunchScreen.storyboard */; };
+		8FFE54CF22D7A59A006CD9BB /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE54CE22D7A59A006CD9BB /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FFE54B322D7A4B4006CD9BB /* MazeBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFE54B322D7A4B4006CD9BB /* Key Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Key Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFE54B622D7A4B4006CD9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FFE54B822D7A4B4006CD9BB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		8FFE54BA22D7A4B4006CD9BB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		8FFE54BC22D7A4B4006CD9BB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8FFE54BE22D7A4B4006CD9BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8FFE54C122D7A4B4006CD9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FFE54C322D7A4B5006CD9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FFE54C622D7A4B5006CD9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FFE54C822D7A4B5006CD9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FFE54CE22D7A59A006CD9BB /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		8FFE54B422D7A4B4006CD9BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FFE54B322D7A4B4006CD9BB /* MazeBattle.app */,
+				8FFE54B322D7A4B4006CD9BB /* Key Quest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,8 +62,8 @@
 			children = (
 				8FFE54B622D7A4B4006CD9BB /* AppDelegate.swift */,
 				8FFE54B822D7A4B4006CD9BB /* GameScene.sks */,
-				8FFE54BA22D7A4B4006CD9BB /* Actions.sks */,
 				8FFE54BC22D7A4B4006CD9BB /* GameScene.swift */,
+				8FFE54CE22D7A59A006CD9BB /* GameManager.swift */,
 				8FFE54BE22D7A4B4006CD9BB /* GameViewController.swift */,
 				8FFE54C022D7A4B4006CD9BB /* Main.storyboard */,
 				8FFE54C322D7A4B5006CD9BB /* Assets.xcassets */,
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FFE54B222D7A4B4006CD9BB /* MazeBattle */ = {
+		8FFE54B222D7A4B4006CD9BB /* Key Quest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FFE54CB22D7A4B5006CD9BB /* Build configuration list for PBXNativeTarget "MazeBattle" */;
+			buildConfigurationList = 8FFE54CB22D7A4B5006CD9BB /* Build configuration list for PBXNativeTarget "Key Quest" */;
 			buildPhases = (
 				8FFE54AF22D7A4B4006CD9BB /* Sources */,
 				8FFE54B022D7A4B4006CD9BB /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = MazeBattle;
+			name = "Key Quest";
 			productName = MazeBattle;
-			productReference = 8FFE54B322D7A4B4006CD9BB /* MazeBattle.app */;
+			productReference = 8FFE54B322D7A4B4006CD9BB /* Key Quest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,14 +101,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Kazushi Iwamoto";
+				ORGANIZATIONNAME = "Narifumi Iwamoto";
 				TargetAttributes = {
 					8FFE54B222D7A4B4006CD9BB = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 8FFE54AE22D7A4B4006CD9BB /* Build configuration list for PBXProject "MazeBattle" */;
+			buildConfigurationList = 8FFE54AE22D7A4B4006CD9BB /* Build configuration list for PBXProject "Key Quest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FFE54B222D7A4B4006CD9BB /* MazeBattle */,
+				8FFE54B222D7A4B4006CD9BB /* Key Quest */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +135,6 @@
 				8FFE54B922D7A4B4006CD9BB /* GameScene.sks in Resources */,
 				8FFE54C422D7A4B5006CD9BB /* Assets.xcassets in Resources */,
 				8FFE54C722D7A4B5006CD9BB /* LaunchScreen.storyboard in Resources */,
-				8FFE54BB22D7A4B4006CD9BB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FFE54BD22D7A4B4006CD9BB /* GameScene.swift in Sources */,
+				8FFE54CF22D7A59A006CD9BB /* GameManager.swift in Sources */,
 				8FFE54BF22D7A4B4006CD9BB /* GameViewController.swift in Sources */,
 				8FFE54B722D7A4B4006CD9BB /* AppDelegate.swift in Sources */,
 			);
@@ -295,12 +295,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK4BMPQD32;
 				INFOPLIST_FILE = MazeBattle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kazushi.iwamoto.MazeBattle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazushi.iwamoto.KeyQuest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK4BMPQD32;
 				INFOPLIST_FILE = MazeBattle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kazushi.iwamoto.MazeBattle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazushi.iwamoto.KeyQuest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FFE54AE22D7A4B4006CD9BB /* Build configuration list for PBXProject "MazeBattle" */ = {
+		8FFE54AE22D7A4B4006CD9BB /* Build configuration list for PBXProject "Key Quest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FFE54C922D7A4B5006CD9BB /* Debug */,
@@ -336,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FFE54CB22D7A4B5006CD9BB /* Build configuration list for PBXNativeTarget "MazeBattle" */ = {
+		8FFE54CB22D7A4B5006CD9BB /* Build configuration list for PBXNativeTarget "Key Quest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FFE54CC22D7A4B5006CD9BB /* Debug */,
